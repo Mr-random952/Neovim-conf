@@ -1,5 +1,5 @@
 local M = {}
-
+-- this activates a venv on startup
 function M.setup_venv()
   -- Create and activate a virtual environment
   local venv_path = ".venv"
